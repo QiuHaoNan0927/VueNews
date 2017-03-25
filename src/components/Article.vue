@@ -74,7 +74,7 @@ export default {
       var _this = this;
       this.$http.get('../src/data/article.data').then(function(res) {
         //console.log(res.data[id]);
-        _this.articleData = res.data[id];
+        _this.articleData = res.data[id - 1] || 0;
       }).catch(function(err) {
         console.log('文章详细页面:', err);
       })
@@ -130,6 +130,7 @@ body {
 .header h2 {
   float: left;
   margin-right: 0.18rem;
+  width: 50%;
 }
 
 .header p {
@@ -175,12 +176,13 @@ body {
 }
 
 .cont .text-box {
-  font-size: 0.25rem;
+  font-size: 0.35rem;
 }
 
-.text-box p {
-  line-height: 0.45rem;
+.text-box {
+  line-height: 150%;
   margin-bottom: 0.1rem;
+  text-indent: 0.65rem;
 }
 
 .foot-btn {
