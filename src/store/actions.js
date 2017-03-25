@@ -23,5 +23,10 @@ export default {
     commit
   }) => {
     commit('hideFooter')
+  },
+  showFooter: ({
+    commit
+  }) => {
+    commit('showFooter')
   }
 }

@@ -8,7 +8,7 @@
   <div class="content">
     <div class="header clear">
       <h2><img :src="articleData.author_face" alt=""/></h2>
-      <p>智能社</p>
+      <p>腾讯新闻</p>
     </div>
     <div class="cont">
       <h3>{{articleData.title}}</h3>
