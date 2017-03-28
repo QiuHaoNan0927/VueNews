@@ -14,6 +14,9 @@ npm run dev
 npm run build
 ```
 采用了Vue-router做路由 webpack-simple打包发布，采用axios获取数据
-![demo1](https://qiuhaonan0927.github.io/VueNews/3%E6%9C%88-28-2017%2015-59-44.gif)
-![demo2](https://qiuhaonan0927.github.io/VueNews/3%E6%9C%88-28-2017%2015-59-23.gif)
+
+![demo2](https://github.com/QiuHaoNan0927/VueNews/blob/gh-pages/3%E6%9C%88-28-2017%2015-59-44.gif?raw=true)
+
+![demo1](https://github.com/QiuHaoNan0927/VueNews/blob/gh-pages/3%E6%9C%88-28-2017%2015-59-23.gif?raw=true)
+
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
